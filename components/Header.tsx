@@ -10,10 +10,10 @@ function Header() {
             Globe Notes
           </h1>
         </Link>
-        <div className="hidden cursor-pointer items-center space-x-4 md:inline-flex">
-          <h3>About</h3>
-          <h3>Contact</h3>
-          <h3 className="rounded-full border border-gray-400 px-4 py-1">
+        <div className="hidden cursor-pointer items-center space-x-4 md:inline-flex ">
+          <h3 className=" hover:text-green-500 ">About</h3>
+          <h3 className="hover:text-green-500">Contact</h3>
+          <h3 className="rounded-full border border-gray-400 px-4 py-1 hover:text-green-500">
             Follow
           </h3>
         </div>
