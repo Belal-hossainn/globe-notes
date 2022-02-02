@@ -83,12 +83,12 @@ function Post({ post }: Props) {
               li: ({ children }: any) => (
                 <li className="ml-4 list-disc ">{children}</li>
               ),
-              image: ({ value }: any) => (
-                <img
-                  className="my-5 h-72 w-full rounded-md object-cover"
-                  src={urlFor(post.body[5]).url()!}
-                />
-              ),
+              // image: ({ value }: any) => (
+              //   <img
+              //     className="my-5 h-72 w-full rounded-md object-cover"
+              //     src={urlFor(post.body[]).url()!}
+              //   />
+              // ),
               link: ({ href, children }: any) => (
                 <a href={href} className="text-blue-500 hover:underline">
                   {children}
